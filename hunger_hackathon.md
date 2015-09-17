@@ -1,5 +1,5 @@
 # Loyola Hacks for Hunger
-_Loyola University Chicago Hunger Week 2015, November 2-6_ </br> LuTech's plan for a Hackathon event to coincide with the events of Hunger Week. The event will be a hackathon involving Loyola students coming up with creative ideas on how to tackle the social justice issue of hunger either locally, nationally or globally.
+_Loyola University Chicago Hunger Week 2015, November 2-6_ </br> LuTech is planning for a Hackathon event for Hunger Week. The event will be a hackathon involving Loyola students coming up with creative ideas on how to tackle the social justice issue of hunger either locally, nationally or globally.
 
 ### What is a Hackathon?
 Hackathons are varying in purpose and design so it may be easier to describe ['Why is a Hackathon a thing?'](https://sendgrid.com/blog/why-hackathon/) instead:
@@ -42,4 +42,7 @@ The participants will arrive around 8am where there will be some small breakfast
 ## Details
 
 ### Food
-We are currently looking to supply food for the event through multiple different avenues including donation or reduced pricing from Whole Foods, Aramark and Felices. We will get funding for this either from participation fee or from Departmental funding/SAGA. 
+We are currently looking to supply food for the event through multiple different avenues including donation or reduced pricing from Whole Foods, Aramark and Felices. We will get funding for this either from participation fee or from Departmental funding/SAGA.
+
+### Advertising
+LuTech is putting together posters to canvas campus with to raise awareness about the event. We will also contact all of the Departmental Heads and ask them to email their students and potential offer some sort of extra-credit to participate. 

@@ -19,7 +19,6 @@ Points are awarded based on the following categories, each judge gets a vote and
 		* Is the idea well implemented. It works well within its context. Its... "well designed"
 		* 0-4 pts based on judges averaged votes.
 * _Technical Impressiveness:_ 0-7 pts
-	* Curved category. Judges scores averaged.
 	* Was the problem solved efficiently/elegantly.
 	* Was the problem hard to implement/solve.
 * _Usefulness/Practicality:_ 0-5 pts

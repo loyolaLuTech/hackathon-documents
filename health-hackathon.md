@@ -7,8 +7,8 @@ In order to encourage every team to do EVERY aspect of a project, not just code,
 Points are awarded based on the following categories, each judge gets a vote and the scores are averaged:
 
 * _Relevance:_ 0|2 pts
-	* 0 - No relation to sustainability
-	* 2 - Connects to Chicago sustainability in some way
+	* 0 - No relation to Health
+	* 2 - Connects to Health in some way
 * _Idea:_ 0-5 pts
 	* Will this product do any good?  Is it a good idea?
 	* Based on judges averaged votes.

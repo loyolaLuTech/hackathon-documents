@@ -40,17 +40,18 @@ These points are not averaged, just awarded to groups at the end of the judging 
 
 The following is not code that is gonna run. Its just meant to illustrate how points are accumulated based on above average points only. Which means each group is granted category points ONLY that they received above the average amount. Thus if everyone ignores a category except for one team, that team will receive a large amount of points for doing it.
 
-Int[] Group1 = new Int[] {0,0,0,0,0};
-Int[] Group2 = new Int[] {0,0,0,0,0};
-Int[] CategoryAverages = new Int[]{0,0,0,0,0};
-Int group1score = 0;
-Int group2score = 0;
-Int[] groupScores = new Int[]{group1score,group2score};
+```java
+Double[] Group1 = new Double[] {0,0,0,0,0};
+Double[] Group2 = new Double[] {0,0,0,0,0};
+Double[] CategoryAverages = new Double[]{0,0,0,0,0};
+Double group1score = 0;
+Double group2score = 0;
+Double[] groupScores = new Double[]{group1score,group2score};
 
-Int[][] groups = new Int[][]{Group1, Group2};
+Double[][] groups = new Double[][]{Group1, Group2};
 
 for (int i = 0; i < groups.size; i++) {
-  Int [] curr = groups[i];
+  Double [] curr = groups[i];
   for (int c = 0; c < curr.size; c++){
     curr[c] = ReadCategoryScore;
     CategoryAverages[c] += curr[c];
@@ -60,11 +61,11 @@ for (int i = 0; i < CategoryAverages.size; i++){
   CategoryAverages[i] /= groups.size;
 }
 for (int i = 0; i < groups.size; i++) {
-  Int [] curr = groups[i];
+  Double [] curr = groups[i];
   for (int c = 0; c < curr.size; c++){
     curr[c] = curr[c]-CategoryAverages[c];
     if (curr[c]<0) curr[c]=0;
     groupScores[i]+=curr[c];
   }
 }
-	
+```

@@ -53,7 +53,7 @@ Double[][] groups = new Double[][]{Group1, Group2};
 for (int i = 0; i < groups.size; i++) {
   Double [] curr = groups[i];
   for (int c = 0; c < curr.size; c++){
-    curr[c] = ReadCategoryScore;
+    curr[c] = ReadCategoryScore(); //Get averaged scores of judges for the group for the category
     CategoryAverages[c] += curr[c];
   }
 }
@@ -68,4 +68,6 @@ for (int i = 0; i < groups.size; i++) {
     groupScores[i]+=curr[c];
   }
 }
+
+//Add bonuses here
 ```

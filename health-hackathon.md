@@ -60,10 +60,10 @@ GroupD 5   3   1
 
 Averag 5  3.75 .25
 
-AwardA 0  .25  0
-AwardB 0  .25  0
-AwardC 0  .25  0
-AwardD 0   0  .75   
+AwardA 0  .25  0     Total: .25
+AwardB 0  .25  0     Total: .25
+AwardC 0  .25  0     Total: .25
+AwardD 0   0  .75    Total: .75
 ```
 
 Group C would win with .75 points. A,B and C would have .25. Regardless of the fact that they had the same point count.

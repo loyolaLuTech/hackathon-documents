@@ -4,7 +4,7 @@ In order to encourage every team to do EVERY aspect of a project, not just code,
 
 ###The Skinny:
 
-It is in the best interest of a project to be significantly above average in a category. The way judging works makes it so only points in categories where someone went above the average count.
+It is in the best interest of a project to be significantly above average in a category. This judging system works in such a way that only the only counted points are those in categories where a group has scored above average (as compared to other groups).
 
 If everyone did poorly in one category and one group did well <-- this is worth a lot
 
@@ -16,38 +16,39 @@ Points are awarded based on the following categories, each judge gets a vote and
 
 * _Relevance:_ 0-4 pts
 	* How well does the project relate to health?
-	
+
 * _Idea:_ 0-10 pts
 	* Will this project do any good?  Is it a good idea?
 
 * _Theoretical design:_ 0-8 pts
-	* Is the idea well implemented.
+	* Is the idea well implemented?
 
 * _Technical Impressiveness:_ 0-14 pts
-	* Was the problem solved efficiently/elegantly.
-	* Was the problem hard to implement/solve.
+	* Was the problem solved efficiently/elegantly?
+	* Was the problem hard to implement/solve?
 
 * _Usefulness/Practicality:_ 0-10 pts
+	* Can the product be actualized?
 	* Would this product, once complete, be useful to it's intended audience?
 
 ###Extra Points:
 
-These points are not averaged, just awarded to groups at the end of the judging algortihm:
+These points are not averaged, just awarded to groups at the end of the judging algorithm:
 
 * _JudgesChoice_: .5 pts
-  * Each judge gets .5 points to assign to their favourite project.
- 
+  * Each judge gets .5 points to assign to their favorite project.
+
 * _EboardsChoice_: .2 pts
-  * Each eboard member gets .2 pts to assign to their favourite project
+  * Each eboard member gets .2 points to assign to their favorite project
 
 * _ThePrettyPoint_: .5 pts
   * .5 points are assigned to the prettiest presentation by the eboard.
 
 ###Algorithm:
 
-Project jusdement is based on categories. The average scores for each category is taken, and groups receive points based on how much above the average they are.
+Project judgement is based on categories. The average scores for each category is taken, and groups receive points based on how much above the average they are.
 
-So. If everyone got points in the following way:
+So, for example, if everyone got points in the following way:
 
 ```
 GroupA 5   4   0

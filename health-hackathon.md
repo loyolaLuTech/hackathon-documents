@@ -40,8 +40,8 @@ These points are not averaged, just awarded to groups at the end of the judging 
 * _EboardsChoice_: .2 pts
   * Each eboard member gets .2 pts to assign to their favourite project
 
-* _ThePrettyPoint_: .4 pts
-  * .4 points are assigned to the prettiest presentation by the eboard.
+* _ThePrettyPoint_: .5 pts
+  * .5 points are assigned to the prettiest presentation by the eboard.
 
 ###Algorithm:
 
@@ -49,6 +49,7 @@ Project jusdement is based on categories. The average scores for each category i
 
 So. If everyone got points in the following way:
 
+```
 GroupA 5   4   0
 GroupB 5   4   0
 GroupC 5   4   0
@@ -60,6 +61,7 @@ AwardA 0  .25  0
 AwardB 0  .25  0
 AwardC 0  .25  0
 AwardD 0   0  .75   
+```
 
 Group C would win with .75 points. A,B and C would have .25. Regardless of the fact that they had the same point count.
 

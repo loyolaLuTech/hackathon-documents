@@ -2,42 +2,70 @@
 
 In order to encourage every team to do EVERY aspect of a project, not just code, LuTech has devised the following system:
 
+###The Skinny:
+
+It is in the best interest of a project to be significantly above average in a category. The way judging works makes it so only points in categories where someone went above the average count.
+
+If everyone did poorly in one category and one group did well <-- this is worth a lot
+
+If most people did well in a category <-- this is worth less
+
 ####Points:
 
 Points are awarded based on the following categories, each judge gets a vote and the scores are averaged:
 
-* _Relevance:_ 0|2 pts
-	* 0 - No relation to Health
-	* 2 - Connects to Health in some way
-* _Idea:_ 0-5 pts
-	* Will this product do any good?  Is it a good idea?
-	* Based on judges averaged votes.
-* _Design:_ 0|1 pt + 0-4 pts
-	* Visual design
-		* 0|1 point. Is it in papyrus?
-	* Theoretical design
-		* Is the idea well implemented. It works well within its context. Its... "well designed"
-		* 0-4 pts based on judges averaged votes.
-* _Technical Impressiveness:_ 0-7 pts
+* _Relevance:_ 0-4 pts
+	* How well does the project relate to health?
+	
+* _Idea:_ 0-10 pts
+	* Will this project do any good?  Is it a good idea?
+
+* _Theoretical design:_ 0-8 pts
+	* Is the idea well implemented.
+
+* _Technical Impressiveness:_ 0-14 pts
 	* Was the problem solved efficiently/elegantly.
 	* Was the problem hard to implement/solve.
-* _Usefulness/Practicality:_ 0-5 pts
-	* Would this product, in completeness, be useful to it's intended audience?
+
+* _Usefulness/Practicality:_ 0-10 pts
+	* Would this product, once complete, be useful to it's intended audience?
 
 ###Extra Points:
 
 These points are not averaged, just awarded to groups at the end of the judging algortihm:
 
-* _JudgesChoice_: .2 pts
-  * Each judge gets .2 points to assign to their favourite project.
-* _EboardsChoice_: .1 pts
-  * Each eboard member gets .1 pts to assign to their favourite project
-* _ThePrettyPoint_: .2 pts
-  * By polling. .2 points are assigned to the prettiest presentation by the eboard.
+* _JudgesChoice_: .5 pts
+  * Each judge gets .5 points to assign to their favourite project.
+ 
+* _EboardsChoice_: .2 pts
+  * Each eboard member gets .2 pts to assign to their favourite project
+
+* _ThePrettyPoint_: .4 pts
+  * .4 points are assigned to the prettiest presentation by the eboard.
 
 ###Algorithm:
 
-The following is not code that is gonna run. Its just meant to illustrate how points are accumulated based on above average points only. Which means each group is granted category points ONLY that they received above the average amount. Thus if everyone ignores a category except for one team, that team will receive a large amount of points for doing it.
+Project jusdement is based on categories. The average scores for each category is taken, and groups receive points based on how much above the average they are.
+
+So. If everyone got points in the following way:
+
+GroupA 5   4   0
+GroupB 5   4   0
+GroupC 5   4   0
+GroupD 5   3   1
+
+Averag 5  3.75 .25
+
+AwardA 0  .25  0
+AwardB 0  .25  0
+AwardC 0  .25  0
+AwardD 0   0  .75   
+
+Group C would win with .75 points. A,B and C would have .25. Regardless of the fact that they had the same point count.
+
+This is done to encourage no group ignore lower value categories for higher value ones.
+
+To illustrate ONLY:
 
 ```java
 Double[] Group1 = new Double[] {0,0,0,0,0};

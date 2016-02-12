@@ -14,22 +14,22 @@ If most people did well in a category <-- this is worth less
 
 Points are awarded based on the following categories, each judge gets a vote and the scores are averaged:
 
-* _Relevance:_ 0-4 pts
+* _Relevance:_ 0-5 pts
 	* How well does the project relate to health?
 
 * _Idea:_ 0-10 pts
 	* Will this project do any good?  Is it a good idea?
 
-* _Theoretical design:_ 0-8 pts
+* _Usefulness/Practicality:_ 0-10 pts
+	* Would this product, once complete, be useful to it's intended audience?
+	
+* _Theoretical design:_ 0-5 pts
 	* Is the idea well implemented?
-
-* _Technical Impressiveness:_ 0-14 pts
+	
+* _Technical Impressiveness:_ 0-10 pts
 	* Was the problem solved efficiently/elegantly?
 	* Was the problem hard to implement/solve?
 
-* _Usefulness/Practicality:_ 0-10 pts
-	* Can the product be actualized?
-	* Would this product, once complete, be useful to it's intended audience?
 
 ###Extra Points:
 

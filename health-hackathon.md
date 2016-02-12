@@ -4,7 +4,7 @@ In order to encourage every team to do EVERY aspect of a project, not just code,
 
 ###The Skinny:
 
-It is in the best interest of a project to be significantly above average in a category. This judging system works such that only points that count are in categories where a group scored above average as compared to the other groups.
+It is in the best interest of a project to be significantly above average in a category. This judging system works in such a way that only the only counted points are those in categories where a group has scored above average (as compared to other groups).
 
 If everyone did poorly in one category and one group did well <-- this is worth a lot
 

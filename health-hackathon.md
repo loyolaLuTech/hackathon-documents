@@ -48,6 +48,8 @@ These points are not averaged, just awarded to groups at the end of the judging 
 
 Project judgement is based on categories. The average scores for each category is taken, and groups receive points based on how much above the average they are.
 
+#####Dont worry, judges, we have an excel sheet that does this for us, ha.
+
 So, for example, if everyone got points in the following way:
 
 ```

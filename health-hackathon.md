@@ -35,8 +35,8 @@ Points are awarded based on the following categories, each judge gets a vote and
 
 These points are not averaged, just awarded to groups at the end of the judging algorithm:
 
-* _JudgesChoice_: .25 pts
-  * Each judge gets .25 points to assign to their favorite project.
+* _JudgesChoice_: .50 pts
+  * Each judge gets .50 points to assign to their favorite project.
 
 * _EboardsChoice_: .1 pts
   * Each eboard member gets .1 points to assign to their favorite project
@@ -44,6 +44,9 @@ These points are not averaged, just awarded to groups at the end of the judging 
 * _ThePrettyPoint_: .1 pts
   * .1 points are assigned to the prettiest presentation by the eboard.
 
+* _GroupsChoice_: .1 pts
+  * .1 your group picks another to grant .1 pts to.
+  
 ###Algorithm:
 
 Project judgement is based on categories. The average scores for each category is taken, and groups receive points based on how much above the average they are.
